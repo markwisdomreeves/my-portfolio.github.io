@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+
+    <!-- fontawesome file -->
+    <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+
+    <!-- bootstrap.min -->
+    <!-- <link rel="stylesheet" href="../dist/css/bootstrap.min.css" /> -->
+
+    <!-- Amination.css -->
+    <link rel="stylesheet" href="css/animate.min.css" />
+
+    <!-- main.css -->
+    <link rel="stylesheet" href="css/main.css" />
+    <title>About me page</title>
+</head>
+
+<body>
+    <!-- start of header section -->
+    <header>
+        <!-- menu btn -->
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <!-- menu - branding section -->
+        <nav class="menu">
+            <div class="menu-branding">
+                <!-- image -->
+                <div class="portrait"></div>
+            </div>
+
+            <!-- menu - nav section -->
+            <ul class="menu-nav">
+                <!-- links -->
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="about.html" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skill.html" class="nav-link">MY SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="project.html" class="nav-link">MY PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">HOW TO REACH ME</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- end of header section -->
+
+    <!-- start of the body section -->
+    <main id="about">
+        <!-- large heading -->
+        <h1 class="lg-heading wow bounceInLeft" data-wow-delay="1">
+            About <span class="text-secondary">Me</span>
+        </h1>
+
+        <!-- small heading -->
+        <h2 class="sm-heading about-page-sm-text wow bounceInRight" data-wow-delay="1.4s">
+            Please click the button below to know a little about me.
+        </h2>
+
+        <!-- We are using a Css Grid Templete here -->
+        <!-- FIRST GRID ITEM CONTAINER -->
+        <div class="about-info">
+            <img src="img/portrait.jpeg" alt="Mark Reeves" class="bio-image wow bounceInDown" data-wow-delay="2s" />
+
+            <!-- My bio Marker  -->
+            <!-- Modal Button -->
+            <div id="btn-container"><button id="modalBtn" class="button wow bounceInDown" data-wow-dalay="1.8s">Please Click Me</button>
+            </div>
+            <!--Main Modal container-->
+            <div id="simpleModal" class="modal">
+                <!-- Modal Content container -->
+                <div class="modal-content">
+                    <!-- Modal Content header -->
+                    <div class="modal-header">
+                        <!-- The Modal close button -->
+                        <span class="closeBtn">&times;</span>
+                        <h2 class="bio-text">My Bio</h2>
+                    </div>
+                    <!-- Modal Content body -->
+                    <div class="modal-body">
+                        <!-- Modal text -->
+                        <p>
+                            My Name is Mark Wisdom Reeves. I am a 28 years old Liberian, a
+                            <span class="blue-text">self taught</span> Junior Web Developer & Programmer. I have been Studying code and building a personal mini <a href="project.html" class="nav-link" style="color: blue; text-decoration: underline;">projects</a>                            since february 2018. Additionally, In 2012, I obtained a two (2) years A+ certificate in Computer Science (Hardware Engineer) from the Monrovia Vocational Training Center (M.V.T.C), Monrovia, Liberia. I currently have three(3)
+                            years worked experience as a Computer Hardware Technician, and I presently lived in Italy, Europe. With research and determination, I have developed projects with Javascript, Jquery, Css/Sass/Bootstrap, PHP, Laravel, SQL, Vue.js
+                            & AJAX . As a Web Developer my passion is to use technology based solutions to help solve real world challenges. I am passionately willing to learn new technologies in other to improve my skills and knowlodges.
+                            <br /><span class="blue-text"> THESE ARE MY SKILLS: </span><br />LANGUAGES & FRAMEWORK:<br />HTML5, JAVASCRIPT, PHP, LARAVEL, SQL, VUE.JS, CSS3, JQUERY, BOOTSTRAP3, SASS, AJAX AND JSON<br /><span class="blue-text">TOOLS:</span><br
+                            /> GIT(version-control system) and RESPONSIVE WEB DESIGN
+                        </p>
+                    </div>
+                    <!-- end of modal content body -->
+
+                    <!-- Modal content footer -->
+                    <div class="modal-footer">
+                        <p>
+                            copyright &copy; 2019 - Mark Wisdom Reeves - All rights reserved
+                        </p>
+                    </div>
+                    <!-- end Modal content footer -->
+                </div>
+            </div>
+            <!-- end of Main Modal container -->
+
+
+            <!-- SECOND PART -->
+            <div class="job job-1 job-div-style">
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Company Name </span></h3>
+                <p class="p-fontsize"> Classified Liberia - LTD</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Position </span></h3>
+                <p class="p-fontsize"> Computer Technician</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Location </span></h3>
+                <p class="p-fontsize"> Monrovia - Liberia</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Year </span></h3>
+                <p class="p-fontsize"> 2015 - 2016</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Task & Responsibilties </span></h3>
+                <p class="p-fontsize"> * Was responsible to maintain, install, and trouble-shoot all the office computers, and make sure they are in good condition</p>
+            </div>
+
+            <!-- THIRD PART -->
+            <div class="job job-2 job-div-style">
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Company Name </span></h3>
+                <p class="p-fontsize"> Prince Roz Career Center</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Position </span></h3>
+                <p class="p-fontsize"> Computer Hardware Techician</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Location </span></h3>
+                <p class="p-fontsize"> Grand Bassa County - Liberia</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Year </span></h3>
+                <p class="p-fontsize"> 2014 - 2015</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Task & Responsibilties </span></h3>
+                <p class="p-fontsize"> * Was responsible to repair Desktop computers in the Career Center </p>
+            </div>
+
+            <!-- FOURTH PART -->
+            <div class="job job-3 job-div-style">
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Company Name </span></h3>
+                <p class="p-fontsize"> Ministry of Youth & Sports</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Position </span></h3>
+                <p class="p-fontsize"> Computer Hardware Instructor </p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Location </span></h3>
+                <p class="p-fontsize"> Bomi County, Tubmanbury City - Liberia</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Year </span></h3>
+                <p class="p-fontsize"> 2012 - 2013</p>
+                <h3 class="h3-fontsize"><span class="text-secondary-color">Task & Responsibilties </span></h3>
+                <p class="p-fontsize"> * Was tasked with the responsibilities to teach the youths on how to repair, install, maintain, troubleshoot and to fix common computer hardware and software problems </p>
+            </div>
+
+        </div>
+
+    </main>
+    <!-- end of the body section -->
+
+    <footer id="main-footer" class="footer-text">
+        copyright &copy; 2019 - Mark Wisdom Reeves - All rights reserved
+    </footer>
+
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
