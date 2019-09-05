@@ -321,31 +321,31 @@ body {
 }
 
 .html {
-    width: 80%;
+    width: 90%;
     animation: html 2s;
     -webkit-animation: html 2s;
 }
 
 .css {
-    width: 75%;
+    width: 85%;
     animation: css 2s;
     -webkit-animation: css 2s;
 }
 
 .javascript {
-    width: 70%;
+    width: 80%;
     animation: javascript 2s;
     -webkit-animation: javascript 2s;
 }
 
 .bootstrap {
-    width: 65%;
+    width: 75%;
     animation: bootstrap 2s;
     -webkit-animation: bootstrap 2s;
 }
 
 .php {
-    width: 70%;
+    width: 75%;
     animation: php 2s;
     -webkit-animation: php 2s;
 }
@@ -357,13 +357,13 @@ body {
 }
 
 .laravel {
-    width: 65%;
+    width: 70%;
     animation: laravel 2s;
     -webkit-animation: laravel 2s;
 }
 
 .vue {
-    width: 65%;
+    width: 75%;
     animation: vue 2s;
     -webkit-animation: vue 2s;
 }
@@ -378,15 +378,15 @@ body {
 }
 
 .installation {
-    width: 85%;
+    width: 90%;
     animation: installation 2s;
     -webkit-animation: installation 2s;
 }
 
 .microsoft {
     width: 80%;
-    animation: installation 2s;
-    -webkit-animation: installation 2s;
+    animation: microsoft 2s;
+    -webkit-animation: microsoft 2s;
 }
 
 .english {
@@ -396,7 +396,7 @@ body {
 }
 
 .italiano {
-    width: 50%;
+    width: 75%;
     animation: italiano 2s;
     -webkit-animation: italiano 2s;
 }
@@ -407,32 +407,32 @@ body {
   0% {
     width: 0%; }
   100% {
-    width: 75%; } }
+    width: 90%; } }
 
 @keyframes css {
   0% {
     width: 0%; }
   100% {
-    width: 70%; } }
+    width: 85%; } }
 
 @keyframes javascript {
   0% {
     width: 0%; }
   100% {
-    width: 65%; } }
+    width: 80%; } }
 
 @keyframes bootstrap {
   0% {
     width: 0%; }
   100% {
-    width: 60%; } }
+    width: 75%; } }
 
 
 @keyframes php {
   0% {
     width: 0%; }
   100% {
-    width: 70%; } }
+    width: 75%; } }
 
 @keyframes mysql {
   0% {
@@ -444,13 +444,13 @@ body {
   0% {
     width: 0%; }
   100% {
-    width: 65%; } }
+    width: 70%; } }
 
 @keyframes vue {
   0% {
     width: 0%; }
   100% {
-    width: 65%; } }
+    width: 75%; } }
 
 
 @keyframes repairing {
@@ -460,6 +460,12 @@ body {
     width: 90%; } }
 
 @keyframes installation {
+  0% {
+    width: 0%; }
+  100% {
+    width: 90%; } }
+
+@keyframes microsoft {
   0% {
     width: 0%; }
   100% {
@@ -475,7 +481,7 @@ body {
   0% {
     width: 0%; }
   100% {
-    width: 50%; } } */
+    width: 75%; } } */
 
 .projects {
     display: grid;
